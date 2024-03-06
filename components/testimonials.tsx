@@ -2,14 +2,25 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-// Correct import statements for MUI version 5
 import Avatar from '@mui/material/Avatar';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import './testimonials.css';
 import LogoImage from '@/public/images/_93dedf3a-e6cb-4d89-9d8f-93ebcd67e33e-modified.png'
 
-const PreviousBtn = (props) => {
+interface ButtonProps {
+  className: string;
+  onClick: () => void;
+}
+
+interface CardProps {
+  img: string;
+  testimonial: string;
+  name: string;
+  jobTitle: string;
+}
+
+const PreviousBtn: React.FC<ButtonProps> = (props) => {
   const { className, onClick } = props;
   return (
     <div className={className} onClick={onClick}>
@@ -17,7 +28,8 @@ const PreviousBtn = (props) => {
     </div>
   );
 };
-const NextBtn = (props) => {
+
+const NextBtn: React.FC<ButtonProps> = (props) => {
   const { className, onClick } = props;
   return (
     <div className={className} onClick={onClick}>
@@ -50,7 +62,11 @@ const Testimonials = () => {
           className="testimonial flex justify-center items-center mb-10" style={{ display: "flex", justifyContent: "center" }}
         >
           <div className="w-1/2 mx-auto text-center mb-10">
-            <Slider {...settings} prevArrow={<PreviousBtn />} nextArrow={<NextBtn />}>
+            <Slider {...settings} prevArrow={<PreviousBtn className={""} onClick={function (): void {
+              throw new Error("Function not implemented.");
+            } } />} nextArrow={<NextBtn className={""} onClick={function (): void {
+              throw new Error("Function not implemented.");
+            } } />}>
               <Card
                 img="/images/_93dedf3a-e6cb-4d89-9d8f-93ebcd67e33e-modified.png"
                 testimonial="What are you waiting to be the first review on our website? Contact us NOW!"
@@ -77,7 +93,7 @@ const Testimonials = () => {
   );
 };
 
-const Card = ({ img, testimonial, name, jobTitle }) => {
+const Card: React.FC<CardProps> = ({ img, testimonial, name, jobTitle }) => {
   return (
     <div
       style={{
