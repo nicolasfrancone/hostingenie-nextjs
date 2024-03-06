@@ -27,7 +27,7 @@ export default function Zigzag() {
               <Image src={FeatImage01} alt="check-in and check-out Demo" layout="responsive" />
             </div>
             <div className="w-full sm:w-3/5 pr-30 sm:pr-30 mb-6 sm:mb-0 order-1 sm:order-none">
-              <div className="font-architects-daughter text-xl text-purple-600 mb-2">More speed. Less spend</div>
+              <div className="font-architects-daughter text-xl text-blue-600 mb-2">More speed. Less spend</div>
               <h3 className="h3 mb-3">Efficient Check-In and Check-Out</h3>
               <p className="text-xl text-gray-400 mb-8 sm:mb-12">Your Hostingenie will provide a clear and intuitive explanation of the check-in and check-out processes, enriched with images, videos, maps, or any other resources that can streamline the entry to your property. Achieve a hassle-free check-in and check-out experience.</p>
             </div>
@@ -37,7 +37,7 @@ export default function Zigzag() {
           <div className="flex flex-col sm:flex-row items-center pb-14 lg:pb-0" data-aos="fade-left">
             
             <div className="w-full sm:w-3/5 pr-30 sm:pr-30 mb-6 sm:mb-0 order-1 sm:order-none">
-              <div className="font-architects-daughter text-xl text-purple-600 mb-2">More speed. Less spend</div>
+              <div className="font-architects-daughter text-xl text-blue-600 mb-2">More speed. Less spend</div>
               <h3 className="h3 mb-3">Rapid Issue Reporting</h3>
               <p className="text-xl text-gray-400 mb-8 sm:mb-12">Guests can easily report problems, describe the issue, snap relevant photos, and have them sent directly via email. Your Hostingenie will efficiently manage and notify staff about equipment malfunctions, urgent maintenance needs, or other inconveniences, all without the need for direct interaction.</p>
             </div>
@@ -54,7 +54,7 @@ export default function Zigzag() {
               <Image src={FeatImage05} alt="Experience Personalization" layout="responsive" />
             </div>
             <div className="w-full sm:w-3/5 pr-30 sm:pr-30 mb-6 sm:mb-0 order-1 sm:order-none">
-              <div className="font-architects-daughter text-xl text-purple-600 mb-2">More speed. Less spend</div>
+              <div className="font-architects-daughter text-xl text-blue-600 mb-2">More speed. Less spend</div>
               <h3 className="h3 mb-3">Experience Personalization</h3>
               <p className="text-xl text-gray-400 mb-8 sm:mb-12">Our automated reminder system keeps you and your staff informed of every check-in and check-out, relieving you of the burden of remembering dates. We also integrate each reservation details into your Hostingenie, ensuring each guest receives a meticulously personalized and well-organized experience.</p>
             </div>
@@ -67,7 +67,7 @@ export default function Zigzag() {
           
             
             <div className="max-[1000px]:w-full w-2/5 pr-30 sm:pr-30 mb-6 sm:mb-0">
-              <div className="font-architects-daughter text-xl text-purple-600 mb-2">More speed. Less spend</div>
+              <div className="font-architects-daughter text-xl text-blue-600 mb-2">More speed. Less spend</div>
               <h3 className="h3 mb-3">Customer Support Dashboard</h3>
               <p className="text-xl text-gray-400 mb-8 sm:mb-12">We provide owners and customer support teams with a powerful interactive dashboard offering detailed analytics, comprehensive conversation histories, and exclusive Hostingenie customization tools. With this solution, you can intervene in AI-managed conversations and take full control to deliver exceptionally personalized service.</p>
             </div>
