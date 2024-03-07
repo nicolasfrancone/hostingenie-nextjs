@@ -30,13 +30,13 @@ export default function MobileMenu() {
   })
 
   return (
-    <div className="md:hidden">
+    <div className="md:hidden ">
       {/* Hamburger button */}
       <button
+      type='button'
         ref={trigger}
         className={`hamburger ${mobileNavOpen && 'active'}`}
         aria-controls="mobile-nav"
-        aria-expanded={mobileNavOpen}
         onClick={() => setMobileNavOpen(!mobileNavOpen)}
       >
         <span className="sr-only">Menu</span>

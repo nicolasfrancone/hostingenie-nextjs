@@ -50,7 +50,7 @@ export default function Zigzag() {
 
           <div className="flex flex-col sm:flex-row items-center pb-14" data-aos="fade-left">
             
-          <div className="w-80 order-2 sm:order-none mr-12">
+          <div className="w-80 order-2 sm:order-none sm:mr-12">
               <Image src={FeatImage05} alt="Experience Personalization" layout="responsive" />
             </div>
             <div className="w-full sm:w-3/5 pr-30 sm:pr-30 mb-6 sm:mb-0 order-1 sm:order-none">

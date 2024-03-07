@@ -17,31 +17,30 @@ export default function Header() {
             {/* Desktop nav links */}
             <ul className="flex-grow flex justify-center items-center">
               <li>
-                <a href="#features" className=" font-bold text-xl font-medium text-custom-blue hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out">
+                <a href="/#features" className=" font-bold text-xl font-medium text-custom-blue hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out">
                   Features
                 </a>
               </li>
               <li>
-                <a href="#demos" className=" font-bold text-xl font-medium text-custom-blue hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out">
+                <a href="/#demos" className=" font-bold text-xl font-medium text-custom-blue hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out">
                   Demos
                 </a>
               </li>
               <li>
-                <a href="#benefits" className=" font-bold text-xl font-medium text-custom-blue hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out">
+                <a href="/#benefits" className=" font-bold text-xl font-medium text-custom-blue hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out">
                   Benefits
                 </a>
               </li>
               <li>
-                <a href="#testimonials" className="font-bold text-xl font-medium text-custom-blue hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out">
+                <a href="/#testimonials" className="font-bold text-xl font-medium text-custom-blue hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out">
                   Testimonials
                 </a>
               </li>
               <li>
-                <a href="#about" className=" font-bold text-xl font-medium text-custom-blue hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out">
+                <a href="/#about" className=" font-bold text-xl font-medium text-custom-blue hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out">
                   About
                 </a>
               </li>
-              {/* Add more links for additional sections as needed */}
             </ul>
           </nav>
 

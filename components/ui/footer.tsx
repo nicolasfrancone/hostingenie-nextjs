@@ -12,11 +12,11 @@ export default function Footer() {
           </div>
             
           {/* Policies section */}
-          <div className="mb-4 md:mb-0 mx-auto flex">
-            <div className="text-gray-400 mr-4">
+          <div className="mb-4 md:mb-0 mx-auto flex flex-col sm:flex-row">
+            <div className="text-gray-400 mr-0 sm:mr-4">
               <Link href="/terms-of-service" className="block hover:text-gray-100 transition duration-150 ease-in-out py-1">Terms of Service</Link>
             </div>
-            <div className="text-gray-400 mr-4">
+            <div className="text-gray-400 mr-0 sm:mr-4">
               <Link href="/privacy-policy" className="block hover:text-gray-100 transition duration-150 ease-in-out py-1">Privacy Policy</Link>
             </div>
             <div className="text-gray-400">
@@ -63,7 +63,7 @@ export default function Footer() {
             </div>
             
           {/* Copyrights note */}
-          <div className="text-gray-400 text-sm pt-6">&copy; Hostingenie 2024. All rights reserved.</div>
+          <div className="text-gray-400 text-sm pt-6 text-center">&copy; Hostingenie 2024. All rights reserved.</div>
         </div>
       </div>
     </footer>

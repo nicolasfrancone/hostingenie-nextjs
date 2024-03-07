@@ -6,7 +6,7 @@ import Avatar from '@mui/material/Avatar';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import './testimonials.css';
-import LogoImage from '@/public/images/_93dedf3a-e6cb-4d89-9d8f-93ebcd67e33e-modified.png'
+import LogoImage from '@/public/images/_93dedf3a-e6cb-4d89-9d8f-93ebcd67e33e-modified.png';
 
 interface ButtonProps {
   className: string;
@@ -58,10 +58,8 @@ const Testimonials = () => {
           <p className="text-xl text-gray-400">See what our hosts are saying after implementing Hostingenie for their properties.</p>
         </div>
 
-        <div
-          className="testimonial flex justify-center items-center mb-10" style={{ display: "flex", justifyContent: "center" }}
-        >
-          <div className="w-1/2 mx-auto text-center mb-10">
+        
+          <div className=" testimonial w-4/5 sm:w-2/3 mx-auto text-center mb-10">
             <Slider {...settings} prevArrow={<PreviousBtn className={""} onClick={function (): void {
               throw new Error("Function not implemented.");
             } } />} nextArrow={<NextBtn className={""} onClick={function (): void {
@@ -86,7 +84,7 @@ const Testimonials = () => {
                 jobTitle="CEO and Founder"
               />
             </Slider>
-          </div>
+          
         </div>
       </div>
     </section>
