@@ -1,5 +1,6 @@
 import Link from 'next/link'
-import MobileMenu from './mobile-menu'
+
+import NavMobile from './hamburger-mobile';
 import Banner from '@/components/banner'
 
 export default function Header() {
@@ -44,7 +45,7 @@ export default function Header() {
             </ul>
           </nav>
 
-          <MobileMenu />
+          <NavMobile/>
 
         </div>
       </div>

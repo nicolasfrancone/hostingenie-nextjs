@@ -1,3 +1,5 @@
+"use client"
+import {motion} from "framer-motion"
 import Image from 'next/image'
 
 import PageIllustration from '@/components/page-illustration'
@@ -5,7 +7,7 @@ import PageIllustration from '@/components/page-illustration'
 import FeatImage01 from '@/public/images/IMG_3878-modified.png'
 import FeatImage02 from '@/public/images/IMG_3877-modified.png'
 import FeatImage03 from '@/public/images/IMG_3872-modified.png'
-import FeatImage04 from '@/public/images/chat_yourself.png'
+import FeatImage04 from '@/public/images/handled-modified.png'
 import FeatImage05 from '@/public/images/IMG_3881-modified.png'
 
 export default function Zigzag() {
@@ -23,9 +25,9 @@ export default function Zigzag() {
           </div>
 
           <div className="flex flex-col sm:flex-row items-center pb-14 lg:pb-0" data-aos="fade-right">
-          <div className="w-80 sm:mr-12 order-2 sm:order-none">
+          <motion.div className="w-80 sm:mr-12 order-2 sm:order-none" initial={{ x: -200 }} whileInView={{ x: 0 }} viewport={{ once: true }} transition={{ type: 'spring', stiffness: 100, damping: 20 }}>
               <Image src={FeatImage01} alt="check-in and check-out Demo" layout="responsive" />
-            </div>
+            </motion.div>
             <div className="w-full sm:w-3/5 pr-30 sm:pr-30 mb-6 sm:mb-0 order-1 sm:order-none">
               <div className="font-architects-daughter text-xl text-blue-600 mb-2">More speed. Less spend</div>
               <h3 className="h3 mb-3">Efficient Check-In and Check-Out</h3>
@@ -41,18 +43,18 @@ export default function Zigzag() {
               <h3 className="h3 mb-3">Rapid Issue Reporting</h3>
               <p className="text-xl text-gray-400 mb-8 sm:mb-12">Guests can easily report problems, describe the issue, snap relevant photos, and have them sent directly via email. Your Hostingenie will efficiently manage and notify staff about equipment malfunctions, urgent maintenance needs, or other inconveniences, all without the need for direct interaction.</p>
             </div>
-            <div className="w-80 sm:ml-12 order-2 sm:order-none">
-              <Image src={FeatImage02} alt="Issue Reporting Demo" layout="responsive" />
-            </div>
+            <motion.div className="w-80 sm:mr-12 order-2 sm:order-none" initial={{ x: 200 }} whileInView={{ x: 0 }} viewport={{ once: true }} transition={{ type: 'spring', stiffness: 100, damping: 20 }}>
+              <Image src={FeatImage02} alt="check-in and check-out Demo" layout="responsive" />
+            </motion.div>
           </div>
 
           
 
           <div className="flex flex-col sm:flex-row items-center pb-14" data-aos="fade-left">
             
-          <div className="w-80 order-2 sm:order-none sm:mr-12">
-              <Image src={FeatImage05} alt="Experience Personalization" layout="responsive" />
-            </div>
+          <motion.div className="w-80 sm:mr-12 order-2 sm:order-none" initial={{ x: -200 }} whileInView={{ x: 0 }} viewport={{ once: true }} transition={{ type: 'spring', stiffness: 100, damping: 20 }}>
+              <Image src={FeatImage05} alt="check-in and check-out Demo" layout="responsive" />
+            </motion.div>
             <div className="w-full sm:w-3/5 pr-30 sm:pr-30 mb-6 sm:mb-0 order-1 sm:order-none">
               <div className="font-architects-daughter text-xl text-blue-600 mb-2">More speed. Less spend</div>
               <h3 className="h3 mb-3">Experience Personalization</h3>
@@ -72,9 +74,9 @@ export default function Zigzag() {
               <p className="text-xl text-gray-400 mb-8 sm:mb-12">We provide owners and customer support teams with a powerful interactive dashboard offering detailed analytics, comprehensive conversation histories, and exclusive Hostingenie customization tools. With this solution, you can intervene in AI-managed conversations and take full control to deliver exceptionally personalized service.</p>
             </div>
 
-            <div className="w-full min-[1000px]:ml-12">
+            <motion.div className="w-full sm:w-2/3 md:w-1/2 min-[1000px]:ml-12" initial={{ x: 200 }} whileInView={{ x: 0 }} viewport={{ once: true }} transition={{ type: 'spring', stiffness: 100, damping: 20}}>
               <Image src={FeatImage04} alt="Customer Support Dashboard" layout="responsive" />
-            </div>
+            </motion.div>
            
           </div>
 
