@@ -11,7 +11,7 @@ export default function Description() {
             className="max-w-3xl mx-auto text-center"
             initial={{ opacity: 0, y: -20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1, delay: 0.2, ease: "circOut" }}
+            transition={{ duration: 1, ease: "circOut" }}
             viewport={{ once: true }}
           >
             <h2 className="h2 mb-4">Advanced conversational Artificial Intelligence chatbot and task Automation System.</h2>

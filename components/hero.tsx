@@ -6,7 +6,7 @@ import Image from 'next/image';
 export default function Hero() {
   return (
     <motion.section
-      className='mt-20 md:mt-20 max-w-6xl mx-auto px-4 sm:px-6 relative pt-32 pb-6 md:pt-40 md:pb-6'
+      className='mt-28 md:mt-20 max-w-6xl mx-auto px-4 sm:px-6 relative pt-32 pb-6 md:pt-40 md:pb-6'
       initial={{ opacity: 0, y: -20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}

@@ -5,7 +5,7 @@ export default function Privacy() {
                 <div className="max-w-6xl mx-auto px-4 sm:px-6">
                     <div className="relative pt-32 pb-6 md:pt-40 md:pb-6">
                         <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-                            <h1 className="h1 mb-4">Privacy Policy</h1>
+                            <h1 className="h1 mb-4 mt-8 sm:mt-0">Privacy Policy</h1>
                         </div>
 
                         <div className="mx-auto text-left pb-12 md:pb-20">
@@ -44,7 +44,7 @@ export default function Privacy() {
 
 
                             <h3 className="h3 mb-8">5. Data Security</h3>
-                            <p className="text-xl text-gray-400 pb-10">Your information is stored securely within Voiceflow and Voiceglow, both of which adhere to strict data security practices and comply with relevant data privacy regulations. For more information on how Voiceglow handles personal data, please refer to their <a href="^1^">Privacy Policy</a>. Similarly, you can find details about Voiceflow's data handling practices in their <a href="^2^">Privacy Policy</a>.</p>
+                            <p className="text-xl text-gray-400 pb-10">Your information is stored securely within Voiceflow and Voiceglow, both of which adhere to strict data security practices and comply with relevant data privacy regulations. For more information on how Voiceglow handles personal data, please refer to their <a className="text-custom-blue underline hover:text-custom-dark visited:text-blue-500" href="https://voiceglow.org/legal/privacy-policy">Privacy Policy</a>. Similarly, you can find details about Voiceflow's data handling practices in their <a className="text-custom-blue underline hover:text-custom-dark visited:text-blue-500" href="https://www.voiceflow.com/legal/privacy">Privacy Policy</a>.</p>
 
 
                             <h3 className="h3 mb-8">6. User Responsabilities</h3>

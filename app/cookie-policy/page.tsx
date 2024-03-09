@@ -5,7 +5,7 @@ export default function Cookie() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="relative pt-32 pb-6 md:pt-40 md:pb-6">
             <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-              <h1 className="h1 mb-4">Cookie Policy</h1>
+              <h1 className="h1 mb-4 mt-8 sm:mt-0">Cookie Policy</h1>
             </div>
 
             <div className="mx-auto text-left pb-12 md:pb-20">
@@ -39,7 +39,7 @@ export default function Cookie() {
 
 
               <h3 className="h3 mb-8">Data Collected by Cookies</h3>
-              <p className="text-xl text-gray-400 pb-10">The cookies used by Hostingenie do not collect personal information directly. However, they may store certain data related to your interactions with the chatbots, such as conversation history stored in the "runtime_local" cookie.</p>
+              <p className="text-xl text-gray-400 pb-10">The cookies used by Hostingenie do not collect personal information directly. However, they may store certain data related to your interactions with the chatbots, such as conversation history stored in the "runtime local" cookie.</p>
 
 
               <h3 className="h3 mb-8">Cookie Management</h3>

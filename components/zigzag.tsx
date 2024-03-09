@@ -15,7 +15,7 @@ export default function Zigzag() {
           {/* Section header */}
           <motion.div className="max-w-3xl mx-auto text-center pb-20" initial={{ opacity: 0, y: -20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1, delay: 0.2, ease: "circOut" }}
+            transition={{ duration: 1, ease: "circOut" }}
             viewport={{ once: true }} >
             <div className="inline-flex text-lg font-semibold py-3 px-6 m-2 text-green-800 bg-green-200 rounded-full mb-8">Unlock true passive income streams.</div>
             <h1 className="h2 mb-4">One Genie, Unlimited Solutions</h1>
@@ -42,7 +42,7 @@ export default function Zigzag() {
               <h3 className="h3 mb-3">Rapid Issue Reporting</h3>
               <p className="text-xl text-gray-400 mb-8 sm:mb-12">Guests can easily report problems, describe the issue, snap relevant photos, and have them sent directly via email. Your Hostingenie will efficiently manage and notify staff about equipment malfunctions, urgent maintenance needs, or other inconveniences, all without the need for direct interaction.</p>
             </div>
-            <motion.div className="w-80 sm:mr-12 order-2 sm:order-none" initial={{ x: 200 }} whileInView={{ x: 0 }} viewport={{ once: true }} transition={{ type: 'spring', stiffness: 100, damping: 20 }}>
+            <motion.div className="w-80 sm:ml-12 order-2 sm:order-none" initial={{ x: 200 }} whileInView={{ x: 0 }} viewport={{ once: true }} transition={{ type: 'spring', stiffness: 100, damping: 20 }}>
               <Image src={FeatImage02} alt="check-in and check-out Demo" layout="responsive" />
             </motion.div>
           </div>

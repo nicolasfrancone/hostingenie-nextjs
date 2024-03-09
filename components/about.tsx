@@ -18,8 +18,6 @@ export default function About() {
               <h3 className="h3 mb-4">Our Vision</h3>
               <p className="text-xl text-gray-400 pb-10">As a passionate traveler and technology enthusiast, Nicolas Francone embarked on a journey around the world, experiencing diverse accommodation options. It was during these travels that he recognized the allure of staying in properties, offering a unique opportunity to immerse oneself in the local culture. However, he also recognized the challenges faced by property owners in efficiently managing vacation rentals.<br></br>Determined to make a difference, Nicolas sought to combine his love for travel with his expertise in technology to develop solutions that would support property owners in their endeavors, fostering a more seamless and enjoyable experience for both hosts and guests alike.</p>
             
-  
-            
               <h3 className="h3 mb-4">The Challenge</h3>
               <p className="text-xl text-gray-400 pb-10">Renting properties for vacation purposes often entails significant responsibilities for hosts, who may lack the necessary property management skills. From handling check-ins and check-outs to addressing guest inquiries and ensuring property upkeep, hosts face numerous challenges. This often leads to delays in response times, elevated stress levels, and an inability to provide the desired level of guest satisfaction.<br></br>As a result, finding effective solutions to streamline these processes and enhance the overall hosting experience becomes paramount.</p>
             
@@ -39,14 +37,14 @@ export default function About() {
               <p className="text-xl text-gray-400 pb-8">Behind Hostingenie is a dedicated team of professionals committed to revolutionizing the hospitality industry. Our diverse backgrounds and expertise converge to drive innovation and deliver exceptional service to our clients.</p>
               </div>
 
-              <div className="mx-auto text-left pb-12 md:pb-20 flex flex-wrap items-center">
+              <div className="mx-auto text-left pb-10 md:pb-20 flex flex-wrap items-center">
               <div className="w-full md:w-1/2 md:pr-8">
               <p className="text-xl mb-2 font-bold">- Nicolas Francone - Founder & CEO</p>
               <p className="text-lg text-gray-400 mb-4">Nicolas Francone's passion for travel and technology inspired the creation of Hostingenie. With a vision to simplify the vacation rental experience, Nicolas leads the team with enthusiasm and dedication.</p>
               <p className="text-xl  font-bold">- Our Support Team</p>
               <p className="text-lg text-gray-400">Our support team works tirelessly to ensure seamless communication between hosts and guests. With a focus on efficiency and excellence, they strive to exceed expectations and deliver unparalleled service.</p>
               </div>
-              <div className="w-full md:w-1/2 md:pl-8 pt-7 pb-10">
+              <div className="w-full md:w-1/2 md:pl-8 pt-7 pb-7 sm:pb-10">
               <div className="rounded-full overflow-hidden w-64 h-64 mx-auto md:mx-0">
                 <Image src={ProfileImage} alt="Your Profile Picture" layout="responsive" width={300} height={300} />
               </div>

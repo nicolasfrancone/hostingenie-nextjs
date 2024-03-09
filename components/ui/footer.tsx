@@ -12,7 +12,7 @@ export default function Footer() {
           </div>
             
           {/* Policies section */}
-          <div className="mb-4 md:mb-0 mx-auto flex flex-col sm:flex-row">
+          <div className="mb-4 text-center md:mb-0 mx-auto flex flex-col sm:flex-row">
             <div className="text-gray-400 mr-0 sm:mr-4">
               <Link href="/terms-of-service" className="block hover:text-gray-100 transition duration-150 ease-in-out py-1">Terms of Service</Link>
             </div>
@@ -23,8 +23,7 @@ export default function Footer() {
               <Link href="/cookie-policy" className="block hover:text-gray-100 transition duration-150 ease-in-out py-1">Cookie Policy</Link>
             </div>
           </div>
-            
-          {/* Social media links */}
+          
           <div className="md:flex md:items-center md:justify-between pt-4">
 
             {/* Social links */}
