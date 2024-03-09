@@ -1,5 +1,3 @@
-import Link from 'next/link'
-
 import NavMobile from './hamburger-mobile';
 import Banner from '@/components/banner'
 

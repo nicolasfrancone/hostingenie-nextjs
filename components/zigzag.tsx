@@ -1,12 +1,8 @@
 "use client"
 import {motion} from "framer-motion"
 import Image from 'next/image'
-
-import PageIllustration from '@/components/page-illustration'
-
 import FeatImage01 from '@/public/images/IMG_3878-modified.png'
 import FeatImage02 from '@/public/images/IMG_3877-modified.png'
-import FeatImage03 from '@/public/images/IMG_3872-modified.png'
 import FeatImage04 from '@/public/images/handled-modified.png'
 import FeatImage05 from '@/public/images/IMG_3881-modified.png'
 
@@ -17,14 +13,17 @@ export default function Zigzag() {
         <div className="py-12 md:py-20 border-t border-gray-800">
 
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-20">
-            <div className="inline-flex text-lg font-semibold py-3 px-6 m-2 text-green-600 bg-green-200 rounded-full mb-8">Unlock true passive income streams.</div>
-            <h1 className="h2 mb-4">One Genie, unlimited Solutions</h1>
-            <p className="text-xl text-gray-400">Say <strong>goodbye</strong> to the stress of guest inquiries, the hassle of managing calendars, and the constant reminders of pending tasks. With Hostingenie at your service, effortless hospitality is just a click away. We have your back.</p>
+          <motion.div className="max-w-3xl mx-auto text-center pb-20" initial={{ opacity: 0, y: -20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1, delay: 0.2, ease: "circOut" }}
+            viewport={{ once: true }} >
+            <div className="inline-flex text-lg font-semibold py-3 px-6 m-2 text-green-800 bg-green-200 rounded-full mb-8">Unlock true passive income streams.</div>
+            <h1 className="h2 mb-4">One Genie, Unlimited Solutions</h1>
+            <p className="text-xl text-gray-400">Say <strong>goodbye</strong> to the stress of guest inquiries, the hassle of managing calendars, misunderstandings, and the constant reminders of pending tasks. Effortless hospitality is just a click away. We have your back.</p>
             <p className="text-xl text-gray-400 mt-8">Say <strong>hello</strong> to a world of positive reviews, elevated satisfaction, and unforgettable guest experiences. With Hostingenie at your side, welcome increased efficiency, more free time, and a hospitality journey like never before.</p>
-          </div>
+          </motion.div>
 
-          <div className="flex flex-col sm:flex-row items-center pb-14 lg:pb-0" data-aos="fade-right">
+          <div className="flex flex-col sm:flex-row items-center pb-14 lg:pb-0">
           <motion.div className="w-80 sm:mr-12 order-2 sm:order-none" initial={{ x: -200 }} whileInView={{ x: 0 }} viewport={{ once: true }} transition={{ type: 'spring', stiffness: 100, damping: 20 }}>
               <Image src={FeatImage01} alt="check-in and check-out Demo" layout="responsive" />
             </motion.div>
@@ -36,7 +35,7 @@ export default function Zigzag() {
             
           </div>
 
-          <div className="flex flex-col sm:flex-row items-center pb-14 lg:pb-0" data-aos="fade-left">
+          <div className="flex flex-col sm:flex-row items-center pb-14 lg:pb-0">
             
             <div className="w-full sm:w-3/5 pr-30 sm:pr-30 mb-6 sm:mb-0 order-1 sm:order-none">
               <div className="font-architects-daughter text-xl text-blue-600 mb-2">More speed. Less spend</div>
@@ -50,7 +49,7 @@ export default function Zigzag() {
 
           
 
-          <div className="flex flex-col sm:flex-row items-center pb-14" data-aos="fade-left">
+          <div className="flex flex-col sm:flex-row items-center pb-14">
             
           <motion.div className="w-80 sm:mr-12 order-2 sm:order-none" initial={{ x: -200 }} whileInView={{ x: 0 }} viewport={{ once: true }} transition={{ type: 'spring', stiffness: 100, damping: 20 }}>
               <Image src={FeatImage05} alt="check-in and check-out Demo" layout="responsive" />
@@ -59,14 +58,10 @@ export default function Zigzag() {
               <div className="font-architects-daughter text-xl text-blue-600 mb-2">More speed. Less spend</div>
               <h3 className="h3 mb-3">Experience Personalization</h3>
               <p className="text-xl text-gray-400 mb-8 sm:mb-12">Our automated reminder system keeps you and your staff informed of every check-in and check-out, relieving you of the burden of remembering dates. We also integrate each reservation details into your Hostingenie, ensuring each guest receives a meticulously personalized and well-organized experience.</p>
-            </div>
-            
-          
+            </div>    
           </div>
 
-          <div className="flex flex-col min-[1000px]:flex-row items-center" data-aos="fade-right">
-            
-          
+          <div className="flex flex-col min-[1000px]:flex-row items-center">
             
             <div className="max-[1000px]:w-full w-2/5 pr-30 sm:pr-30 mb-6 sm:mb-0">
               <div className="font-architects-daughter text-xl text-blue-600 mb-2">More speed. Less spend</div>
