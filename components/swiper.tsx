@@ -60,7 +60,7 @@ export default function Swipers() {
                 </div>
               </div>
               <div className='mx-7'>
-                <p className="mt-4 text-lg text-black">&ldquo; {testimonial.testimonial} &rdquo;</p>
+                <p className="mt-4 text-lg text-black">{testimonial.testimonial}</p>
               </div>
               <div className="flex justify-center mt-4">
                 {[...Array(5)].map((_, index) => (

@@ -33,18 +33,18 @@ export default function About() {
              
             {/* Meet Our Team */}
             <div className="mx-auto text-left pb-12 md:pb-10 flex flex-wrap items-center">
-              <h3 className="h3 mb-8">Meet Our Team</h3>
-              <p className="text-xl text-gray-400 pb-8">Behind Hostingenie is a dedicated team of professionals committed to revolutionizing the hospitality industry. Our diverse backgrounds and expertise converge to drive innovation and deliver exceptional service to our clients.</p>
+              <h3 className="h3 mb-4">Meet Our Team</h3>
+              <p className="text-xl text-gray-400 pb-6">Behind Hostingenie is a dedicated team of professionals committed to revolutionizing the hospitality industry. Our diverse backgrounds and expertise converge to drive innovation and deliver exceptional service to our clients.</p>
               </div>
 
-              <div className="mx-auto text-left pb-10 md:pb-20 flex flex-wrap items-center">
+              <div className="mx-auto text-left flex flex-wrap pb-8 sm:pb-10 items-center">
               <div className="w-full md:w-1/2 md:pr-8">
-              <p className="text-xl mb-2 font-bold">- Nicolas Francone - Founder & CEO</p>
+              <p className="text-xl mb-2 font-bold">Nicolas Francone - Founder & CEO</p>
               <p className="text-lg text-gray-400 mb-4">Nicolas Francone's passion for travel and technology inspired the creation of Hostingenie. With a vision to simplify the vacation rental experience, Nicolas leads the team with enthusiasm and dedication.</p>
-              <p className="text-xl  font-bold">- Our Support Team</p>
+              <p className="text-xl  font-bold">Support Team</p>
               <p className="text-lg text-gray-400">Our support team works tirelessly to ensure seamless communication between hosts and guests. With a focus on efficiency and excellence, they strive to exceed expectations and deliver unparalleled service.</p>
               </div>
-              <div className="w-full md:w-1/2 md:pl-8 pt-7 pb-7 sm:pb-10">
+              <div className="w-full md:w-1/2 md:pl-8 pt-7 pb-4 sm:pb-6">
               <div className="rounded-full overflow-hidden w-64 h-64 mx-auto md:mx-0">
                 <Image src={ProfileImage} alt="Your Profile Picture" layout="responsive" width={300} height={300} />
               </div>
@@ -61,7 +61,7 @@ export default function About() {
             <p className="text-xl text-gray-400 pb-10">Our first customers who would like to work with us during this phase will have access to Hostingenie at <strong>COST PRICE</strong> for the initial months as a token of appreciation for trusting us. This special offer is our way of expressing gratitude to those who join us early on in our journey. We value your partnership and look forward to working closely with you to shape the future of Hostingenie.</p>
               
               <h3 className="h3 mb-4">Contact Us</h3>
-              <p className="text-xl text-gray-400">Ready to experience the future of hospitality? Connect with us today to learn more about Hostingenie and how we can transform your lodging experience. If you have any questions, concerns, or inquiries, please don't hesitate to reach out to us at <strong>support@hostingenie.com</strong>. Our dedicated support team is here to assist you and ensure that your experience with Hostingenie is seamless and satisfactory. We look forward to hearing from you!</p>
+              <p className="text-xl text-gray-400">Ready to experience the future of hospitality? Connect with us today to learn more about Hostingenie and how we can transform your lodging experience. If you have any questions, concerns, or inquiries, please don't hesitate to reach out to us at <strong>support@hostingenie.com</strong>. <br></br>Our dedicated support team is here to assist you and ensure that your experience with Hostingenie is seamless and satisfactory. We look forward to hearing from you!</p>
             </div>
   
           </div>

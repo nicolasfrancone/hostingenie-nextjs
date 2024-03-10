@@ -12,6 +12,7 @@ export default function Benefits() {
         "Intuitive and interactive experience.",
         "Potential for increased rental prices.",
         "Decrease in staff dedicated to Guest Services.",
+        "Whatsapp integration.",
         "And much more..."
     ];
 
