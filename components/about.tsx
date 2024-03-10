@@ -32,17 +32,17 @@ export default function About() {
               <p className="text-xl text-gray-400 pb-10">With Hostingenie, everyone wins. Property owners gain access to a tailored Genie capable of managing all guest inquiries, while guests enjoy a personalized and seamless experience. By bridging the gap between hosts and guests, Hostingenie enhances the overall lodging experience and fosters mutual satisfaction.</p>
              
             {/* Meet Our Team */}
-            <div className="mx-auto text-left pb-12 md:pb-10 flex flex-wrap items-center">
+            <div className="mx-auto text-left pb-8 flex flex-wrap items-center">
               <h3 className="h3 mb-4">Meet Our Team</h3>
-              <p className="text-xl text-gray-400 pb-6">Behind Hostingenie is a dedicated team of professionals committed to revolutionizing the hospitality industry. Our diverse backgrounds and expertise converge to drive innovation and deliver exceptional service to our clients.</p>
+              <p className="text-xl text-gray-400">Behind Hostingenie is a dedicated team of professionals committed to revolutionizing the hospitality industry. Our diverse backgrounds and expertise converge to drive innovation and deliver exceptional service to our clients.</p>
               </div>
 
               <div className="mx-auto text-left flex flex-wrap pb-8 sm:pb-10 items-center">
               <div className="w-full md:w-1/2 md:pr-8">
               <p className="text-xl mb-2 font-bold">Nicolas Francone - Founder & CEO</p>
-              <p className="text-lg text-gray-400 mb-4">Nicolas Francone's passion for travel and technology inspired the creation of Hostingenie. With a vision to simplify the vacation rental experience, Nicolas leads the team with enthusiasm and dedication.</p>
+              <p className="text-xl text-gray-400 mb-4">Nicolas Francone's passion for travel and technology inspired the creation of Hostingenie. With a vision to simplify the vacation rental experience, Nicolas leads the team with enthusiasm and dedication.</p>
               <p className="text-xl  font-bold">Support Team</p>
-              <p className="text-lg text-gray-400">Our support team works tirelessly to ensure seamless communication between hosts and guests. With a focus on efficiency and excellence, they strive to exceed expectations and deliver unparalleled service.</p>
+              <p className="text-xl text-gray-400">Our support team works tirelessly to ensure seamless communication between hosts and guests. With a focus on efficiency and excellence, they strive to exceed expectations and deliver unparalleled service.</p>
               </div>
               <div className="w-full md:w-1/2 md:pl-8 pt-7 pb-4 sm:pb-6">
               <div className="rounded-full overflow-hidden w-64 h-64 mx-auto md:mx-0">
