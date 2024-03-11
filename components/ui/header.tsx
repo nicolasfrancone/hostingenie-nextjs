@@ -20,6 +20,10 @@ export default function Header() {
     gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID}');
   `}
         </Script>
+
+        <div style={{ width: 0, height: 0 }} id="VG_OVERLAY_CONTAINER"></div>
+
+        {/* Voiceglow Chatbot Integration */}
         <Banner />
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="flex items-center justify-between h-20">

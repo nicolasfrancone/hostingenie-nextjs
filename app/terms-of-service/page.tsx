@@ -9,13 +9,13 @@ export default function Terms() {
             </div>
 
             <div className="mx-auto text-left pb-12 md:pb-20">
-              <h3 className="h3 mb-4">Introduction</h3>
+              <h3 className="h4 mb-4">Introduction</h3>
               <p className="text-xl text-gray-400 pb-10">Welcome to Hostingenie's Terms of Service. These terms govern your use of Hostingenie's services, including AI conversational chatbots created using third-party platforms Voiceflow and Voiceglow. By accessing or using Hostingenie's services, you agree to abide by these terms.
               </p>
 
 
 
-              <h3 className="h3 mb-8">Use of Services</h3>
+              <h3 className="h4 mb-8">Use of Services</h3>
               <ul className="list-disc pl-6 pb-10 text-xl text-gray-400">
                 <li><strong>Purpose:</strong> Hostingenie's services are intended for property owners who rent their properties for vacation purposes to guests. The chatbots provided by Hostingenie allow guests to ask questions related to the property, including accommodations, recommendations, transportation suggestions, reporting problems, and requesting assistance, all within the context of their stay.</li>
                 <li><strong>Compliance:</strong> Users agree to use Hostingenie's services in compliance with applicable laws, regulations, and these Terms of Service. Any misuse or unauthorized use of the services is strictly prohibited.</li>
@@ -23,7 +23,7 @@ export default function Terms() {
 
 
 
-              <h3 className="h3 mb-8">Data Collected and Usage</h3>
+              <h3 className="h4 mb-8">Data Collected and Usage</h3>
               <p className="text-xl text-gray-400">We collect two types of information from users who interact with our Chatbots:</p>
               <ul className="list-disc pl-6 pb-10 text-xl text-gray-400">
                 <li><strong>Information from Booking Confirmation Emails:</strong> We collect certain information from your booking confirmation email, such as your check-in date, check-out date, and name. This information is not collected by us directly, but by the booking platform you used to reserve the property.</li>
@@ -32,7 +32,7 @@ export default function Terms() {
 
 
 
-              <h3 className="h3 mb-8">Use of Information</h3>
+              <h3 className="h4 mb-8">Use of Information</h3>
               <p className="text-xl text-gray-400">We use the information we collect for the following purposes:</p>
               <ul className="list-disc pl-6 pb-10 text-xl text-gray-400">
                 <li><strong>To improve guest support:</strong> We use the information to provide you with support during your stay at the property, including answering your questions about the accommodations, recommendations, transportation suggestions, and addressing any problems you may encounter.</li>
@@ -43,7 +43,7 @@ export default function Terms() {
 
 
 
-              <h3 className="h3 mb-8">Data Security and Privacy</h3>
+              <h3 className="h4 mb-8">Data Security and Privacy</h3>
               <ul className="list-disc pl-6 pb-10 text-xl text-gray-400">
                 <li><strong>Security Measures:</strong> Hostingenie ensures the security of collected information within Voiceflow and Voiceglow platforms, which adhere to strict data security practices and comply with relevant data privacy regulations. For more information on how Voiceglow handles personal data, please refer to their <a className="text-custom-blue underline hover:text-custom-dark visited:text-blue-500" href="https://voiceglow.org/legal/privacy-policy">Privacy Policy</a>. Similarly, you can find details about Voiceflow's data handling practices in their <a className="text-custom-blue underline hover:text-custom-dark visited:text-blue-500" href="https://www.voiceflow.com/legal/privacy">Privacy Policy</a>.
                 </li>
@@ -56,35 +56,34 @@ export default function Terms() {
 
 
 
-              <h3 className="h3 mb-8">Cookie Usage</h3>
-              <ul className="list-disc pl-6 text-xl text-gray-400 pb-10">
+              <h3 className="h4 mb-8">Cookie Usage</h3>
+              <ul className="list-disc pl-6 text-xl text-gray-400">
                 <li><strong>Types of Cookies:</strong> Hostingenie uses cookies to personalize user experience, including determining browser locale and storing conversation history on user devices.
                 </li>
                 <li><strong>Cookie Management:</strong> Users can manage cookie preferences through their browser settings, although disabling cookies may affect the functionality of Hostingenie's services.</li>
-                <p className="text-xl text-gray-400 pb-10">For more information on cookies, please refer to our <a href="/cookie-policy">Cookie Policy</a>.</p>
-
-
               </ul>
-              <h3 className="h3 mb-8">Intellectual Property</h3>
+              <p className="text-xl text-gray-400 pb-10">For more information on cookies, please refer to our <a href="/cookie-policy">Cookie Policy</a>.</p>
+              
+              <h3 className="h4 mb-8">Intellectual Property</h3>
               <p className="text-xl text-gray-400 pb-10">All intellectual property rights related to Hostingenie's services, including the chatbots created using Voiceflow and Voiceglow platforms, belong to Hostingenie.
               </p>
 
 
 
-              <h3 className="h3 mb-8">Limitation of Liability</h3>
+              <h3 className="h4 mb-8">Limitation of Liability</h3>
               <p className="text-xl text-gray-400 pb-10">Hostingenie is not liable for any damages resulting from the use or inability to use its services. Users agree to use the services at their own risk.
               </p>
 
 
-              <h3 className="h3 mb-8">User Responsabilities</h3>
+              <h3 className="h4 mb-8">User Responsabilities</h3>
               <p className="text-xl text-gray-400 pb-10">Users are responsible for ensuring the accuracy and legality of the information they provide when interacting with Hostingenie's services, particularly when sharing personal data or file attachments. Users must also use the services in a manner consistent with applicable laws, regulations, and these Terms of Service. Any misuse or unauthorized use of the services is strictly prohibited. Users should refrain from engaging in activities that may disrupt or impair the functionality of the services or infringe upon the rights of others. By using Hostingenie's services, users agree to indemnify and hold harmless Hostingenie from any claims, damages, or liabilities arising from their use of the services or violation of these Terms of Service.</p>
 
-              <h3 className="h3 mb-8">9. Updates to the Terms of Service. Amendments to Terms</h3>
+              <h3 className="h4 mb-8">9. Updates to the Terms of Service.</h3>
               <p className="text-xl text-gray-400 pb-10">Hostingenie may update these Terms of Service from time to time. Users will be notified of any changes, and continued use of the services constitutes acceptance of the updated terms.<br></br>This Terms of Service was last updated on February 27, 2024.</p>
 
 
 
-              <h3 className="h3 mb-4">10. Contact Us</h3>
+              <h3 className="h4 mb-4">10. Contact Us</h3>
               <p className="text-xl text-gray-400">If you have any questions or suggestions about our Terms of Service, do not hesitate to contact us at <strong>support@hostingenie.com</strong>.</p>
 
             </div>

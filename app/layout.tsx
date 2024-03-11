@@ -1,6 +1,7 @@
 import './css/style.css'
 
 import { Inter, Architects_Daughter } from 'next/font/google'
+import Script from 'next/script'
 
 import Header from '@/components/ui/header'
 
@@ -35,6 +36,24 @@ export default function RootLayout({
           />
           {children}
         </div>
+        <Script
+          defer
+          src="https://storage.googleapis.com/voiceglow-cdn/vg_live_build/vg_bundle.js"
+        />
+        <Script id="voiceglow">
+          {`
+            (function() {
+              window.VG_CONFIG = {
+                ID: "tuhorsi3y",
+                region: 'na',
+                render: 'popup',
+                stylesheets: [
+                  "https://storage.googleapis.com/voiceglow-cdn/vg_live_build/styles.css",
+                ],
+              };
+            })();
+          `}
+        </Script>
       </body>
     </html>
   )

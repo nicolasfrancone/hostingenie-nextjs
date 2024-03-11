@@ -24,7 +24,7 @@ export default function NavMobile() {
                 className={
                   "font-bold text-xl font-medium flex items-center justify-between w-full p-5 rounded-xl bg-gray-800"
                 }
-                href="#features"
+                href="/#features"
               >
                 Features
               </a>
@@ -48,7 +48,7 @@ export default function NavMobile() {
                 className={
                   "font-bold text-xl font-medium flex items-center justify-between w-full p-5 rounded-xl bg-gray-800"
                 }
-                href="#benefits"
+                href="/#benefits"
               >
                 Benefits
               </a>
@@ -60,7 +60,7 @@ export default function NavMobile() {
                 className={
                   "font-bold text-xl font-medium flex items-center justify-between w-full p-5 rounded-xl bg-gray-800"
                 }
-                href="#testimonials"
+                href="/#testimonials"
               >
                 Testimonials
               </a>
@@ -72,7 +72,7 @@ export default function NavMobile() {
                 className={
                   "font-bold text-xl font-medium flex items-center justify-between w-full p-5 rounded-xl bg-gray-800"
                 }
-                href="#about"
+                href="/#about"
               >
                 About
               </a>
