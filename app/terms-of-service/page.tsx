@@ -1,3 +1,8 @@
+export const metadata = {
+  title: "Terms of Service | Understand Your Rights and Responsibilities",
+  description: "Review our terms of service to grasp your rights and obligations when using our website or services. Gain clarity on usage policies, intellectual property rights, and dispute resolution procedures.",
+}
+
 export default function Terms() {
   return (
     <>
@@ -16,10 +21,12 @@ export default function Terms() {
 
 
               <h3 className="h4 mb-8">Use of Services</h3>
+              <p className="text-xl text-gray-400">By accessing and using our Service, you indicate that you understand, accept, and consent to the terms of this Policy. If you do not agree with or you are not comfortable with any aspect of this Policy, you should immediately discontinue access or use of our Service.</p>
               <ul className="list-disc pl-6 pb-10 text-xl text-gray-400">
                 <li><strong>Purpose:</strong> Hostingenie's services are intended for property owners who rent their properties for vacation purposes to guests. The chatbots provided by Hostingenie allow guests to ask questions related to the property, including accommodations, recommendations, transportation suggestions, reporting problems, and requesting assistance, all within the context of their stay.</li>
                 <li><strong>Compliance:</strong> Users agree to use Hostingenie's services in compliance with applicable laws, regulations, and these Terms of Service. Any misuse or unauthorized use of the services is strictly prohibited.</li>
               </ul>
+
 
 
 

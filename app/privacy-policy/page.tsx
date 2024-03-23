@@ -1,3 +1,8 @@
+export const metadata = {
+    title: "Privacy Policy | Safeguarding Your Information",
+    description: "Explore our comprehensive privacy policy to understand how we protect and handle your personal information. Learn about your rights, data collection practices, and how we ensure your privacy is paramount.",
+  }
+
 export default function Privacy() {
     return (
         <>

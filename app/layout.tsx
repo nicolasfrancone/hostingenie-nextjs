@@ -19,7 +19,7 @@ const architects_daughter = Architects_Daughter({
 })
 
 export const metadata = {
-  title: 'Hostingenie',
+  title: 'Hostingeniessssss',
   description: 'Hostingenie Solutions',
 }
 
