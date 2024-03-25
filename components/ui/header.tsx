@@ -1,11 +1,16 @@
 import NavMobile from './hamburger-mobile';
 import Banner from '@/components/banner'
 import Script from 'next/script'
+import Head from 'next/head'; // Import the Head component from next/head
 
 export default function Header() {
   return (
     <>
 
+<Head>
+        {/* Favicon */}
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <header className="absolute w-full z-30">
         <Script
           async
