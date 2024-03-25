@@ -2,6 +2,7 @@ import NavMobile from './hamburger-mobile';
 import Banner from '@/components/banner'
 import Script from 'next/script'
 import Head from 'next/head';
+import Link from 'next/link';
 
 export default function Header() {
   return (
@@ -12,6 +13,7 @@ export default function Header() {
         <link rel="canonical" href="https://www.hostingenie.com/" />
       </Head>
       <header className="absolute w-full z-30">
+      <link rel="canonical" href="https://www.hostingenie.com/" />
         <Script
           async
           src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID}`}
