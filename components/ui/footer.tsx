@@ -13,10 +13,10 @@ export default function Footer() {
             
           {/* Policies section */}
           <div className="mb-4 text-center md:mb-0 mx-auto flex flex-col sm:flex-row">
-            <div className="text-gray-400 mr-0 sm:mr-4">
+            <div className="text-gray-400 mb-2 sm:mb-0 mr-0 sm:mr-4">
               <Link href="/terms-of-service" className="block hover:text-gray-100 transition duration-150 ease-in-out py-1">Terms of Service</Link>
             </div>
-            <div className="text-gray-400 mr-0 sm:mr-4">
+            <div className="text-gray-400 mb-2 sm:mb-0 mr-0 sm:mr-4">
               <Link href="/privacy-policy" className="block hover:text-gray-100 transition duration-150 ease-in-out py-1">Privacy Policy</Link>
             </div>
             <div className="text-gray-400">
