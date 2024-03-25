@@ -1,14 +1,13 @@
 import NavMobile from './hamburger-mobile';
 import Banner from '@/components/banner'
 import Script from 'next/script'
-import Head from 'next/head'; // Import the Head component from next/head
+import Head from 'next/head';
 
 export default function Header() {
   return (
     <>
 
-<Head>
-        {/* Favicon */}
+      <Head>
         <link rel="icon" href="/favicon.ico" />
         <link rel="canonical" href="https://www.hostingenie.com/" />
       </Head>
