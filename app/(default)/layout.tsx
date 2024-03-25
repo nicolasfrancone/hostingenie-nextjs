@@ -1,27 +1,19 @@
 'use client'
-
-import { useEffect } from 'react'
-
-import AOS from 'aos'
-import 'aos/dist/aos.css'
+import { Metadata } from 'next';
 
 import PageIllustration from '@/components/page-illustration'
 import Footer from '@/components/ui/footer'
+
+export const metadata: Metadata = {
+  title: 'Hostingenie: AI-Powered Hospitality Management Solution',
+  description: 'Discover Hostingenie, where Artificial Intelligence meets hospitality excellence. Simplify property management, delight guests, and unlock passive income streams with our advanced AI chatbot and task automation system. Find out more about our features, benefits, and how Hostingenie can transform your hosting experience.'
+}
 
 export default function DefaultLayout({
   children,
 }: {
   children: React.ReactNode
 }) {  
-
-  useEffect(() => {
-    AOS.init({
-      once: true,
-      disable: 'phone',
-      duration: 600,
-      easing: 'ease-out-sine',
-    })
-  })
 
   return (
     <>
