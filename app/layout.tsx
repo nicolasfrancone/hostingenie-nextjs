@@ -19,7 +19,7 @@ const architects_daughter = Architects_Daughter({
 })
 
 export const metadata = {
-  title: 'Hostingeniessssss',
+  title: 'Hostingenie',
   description: 'Hostingenie Solutions',
 }
 
@@ -37,7 +37,6 @@ export default function RootLayout({
           {children}
         </div>
         <Script
-          defer
           src="https://storage.googleapis.com/voiceglow-cdn/vg_live_build/vg_bundle.js"
         />
         <Script id="voiceglow">

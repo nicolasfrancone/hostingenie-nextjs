@@ -46,7 +46,7 @@ export default function About() {
               </div>
               <div className="w-full md:w-1/2 md:pl-8 pt-7 pb-4 sm:pb-6">
               <div className="rounded-full overflow-hidden w-64 h-64 mx-auto md:mx-0">
-                <Image src={ProfileImage} alt="Your Profile Picture" layout="responsive" width={300} height={300} />
+                <Image src={ProfileImage} alt="Nicolas' Profile Picture" layout="responsive" width={300} height={300} />
               </div>
             </div>
           
@@ -61,7 +61,7 @@ export default function About() {
             <p className="text-xl text-gray-400 pb-10">Our first customers who would like to work with us during this phase will have access to Hostingenie at <strong>COST PRICE</strong> for the initial months as a token of appreciation for trusting us. This special offer is our way of expressing gratitude to those who join us early on in our journey. We value your partnership and look forward to working closely with you to shape the future of Hostingenie.</p>
               
               <h3 className="h3 mb-4">Contact Us</h3>
-              <p className="text-xl text-gray-400">Ready to experience the future of hospitality? Connect with us today to learn more about Hostingenie and how we can transform your lodging experience. If you have any questions, concerns, or inquiries, please don't hesitate to reach out to us at <strong>support@hostingenie.com</strong>. <br></br>Our dedicated support team is here to assist you and ensure that your experience with Hostingenie is seamless and satisfactory. We look forward to hearing from you!</p>
+              <p className="text-xl text-gray-400">Ready to experience the future of hospitality? Connect with us today to learn more about Hostingenie and how we can transform your lodging experience. If you have any questions, concerns, or inquiries, please don't hesitate to reach out to us at <a className="underline"href='mailto:support@hostingenie.com'><strong>support@hostingenie.com</strong></a>. <br></br>Our dedicated support team is here to assist you and ensure that your experience with Hostingenie is seamless and satisfactory. We look forward to hearing from you!</p>
             </div>
   
           </div>

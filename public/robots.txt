@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /private/
+
+User-agent: Googlebot
+Disallow: /no-googlebot/
+
+User-agent: Bingbot
+Disallow: /no-bingbot/
+
+Sitemap: https://www.hostingenie.com/sitemap.xml
