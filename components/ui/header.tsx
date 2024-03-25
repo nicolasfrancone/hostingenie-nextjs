@@ -10,6 +10,7 @@ export default function Header() {
 <Head>
         {/* Favicon */}
         <link rel="icon" href="/favicon.ico" />
+        <link rel="canonical" href="https://www.hostingenie.com/" />
       </Head>
       <header className="absolute w-full z-30">
         <Script

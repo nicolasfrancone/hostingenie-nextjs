@@ -15,18 +15,6 @@ const testimonialsData = [
     testimonial:
       "What are you waiting for? Become our first testimonial on our page! Reach out today and begin your Hostingenie journey. 😎",
   },
-  {
-    name: 'Nicolas Francone',
-    position: 'Founder and CEO',
-    testimonial:
-      "What are you waiting for? Become our first testimonial on our page! Reach out today and begin your Hostingenie journey. 😎",
-  },
-  {
-    name: 'Nicolas Francone',
-    position: 'Founder and CEO',
-    testimonial:
-      "What are you waiting for? Become our first testimonial on our page! Reach out today and begin your Hostingenie journey. 😎",
-  },
   
 ];
 
