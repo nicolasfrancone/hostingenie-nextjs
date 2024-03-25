@@ -18,7 +18,7 @@ export default function Zigzag() {
             transition={{ duration: 1, ease: "circOut" }}
             viewport={{ once: true }} >
             <div className="inline-flex text-lg font-semibold py-3 px-2 sm:px-6 m-2 text-green-800 bg-green-200 rounded-full mb-8">Unlock true passive income streams.</div>
-            <h1 className="h2 mb-4">One Genie, Unlimited Solutions</h1>
+            <h2 className="h2 mb-4">One Genie, Unlimited Solutions</h2>
             <p className="text-xl text-gray-400">Say <strong>goodbye</strong> to the stress of guest inquiries, the hassle of managing calendars, misunderstandings, and the constant reminders of pending tasks. Effortless hospitality is just a click away. We have your back.</p>
             <p className="text-xl text-gray-400 mt-8">Say <strong>hello</strong> to a world of positive reviews, elevated satisfaction, and unforgettable guest experiences. With Hostingenie at your side, welcome increased efficiency, more free time, and a hospitality journey like never before.</p>
           </motion.div>
