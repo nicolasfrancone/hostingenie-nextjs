@@ -2,6 +2,7 @@ import './css/style.css'
 
 import { Inter, Architects_Daughter } from 'next/font/google'
 import Script from 'next/script'
+import { Metadata } from 'next';
 
 import Header from '@/components/ui/header'
 
@@ -18,9 +19,9 @@ const architects_daughter = Architects_Daughter({
   display: 'swap'
 })
 
-export const metadata = {
-  title: 'Hostingenie',
-  description: 'Hostingenie Solutions',
+export const metadata: Metadata = {
+  title: 'Hostingenie: AI-Powered Hospitality Management Solution',
+  description: 'Discover Hostingenie, where Artificial Intelligence meets hospitality excellence. Simplify property management, delight guests, and unlock passive income streams with our advanced AI chatbot and task automation system. Find out more about our features, benefits, and how Hostingenie can transform your hosting experience.'
 }
 
 export default function RootLayout({
