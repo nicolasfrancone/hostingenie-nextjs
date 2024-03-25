@@ -53,7 +53,7 @@ export default function Swipers() {
           <SwiperSlide key={index}>
             <div className="rounded-3xl p-5 bg-white relative" style={{ background: "linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%)" }}>
               <div className='flex items-center'>
-                <img src="/images/_93dedf3a-e6cb-4d89-9d8f-93ebcd67e33e-modified.png" alt="Testimonial" className="w-24 h-24 mr-4 rounded-full" />
+                <img loading="lazy" src="/images/_93dedf3a-e6cb-4d89-9d8f-93ebcd67e33e-modified.png" alt="Testimonial" className="w-24 h-24 mr-4 rounded-full" />
                 <div>
                   <h3 className="text-xl font-bold weight-700 text-black">{testimonial.name}</h3>
                   <span className="italic" style={{ fontWeight: 600, color: "#447c96" }}>{testimonial.position}</span>
