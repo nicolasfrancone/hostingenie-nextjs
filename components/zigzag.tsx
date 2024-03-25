@@ -43,7 +43,7 @@ export default function Zigzag() {
               <p className="text-xl text-gray-400 mb-8 sm:mb-12">Guests can easily report problems, describe the issue, snap relevant photos, and have them sent directly via email. Your Hostingenie will efficiently manage and notify staff about equipment malfunctions, urgent maintenance needs, or other inconveniences, all without the need for direct interaction.</p>
             </div>
             <motion.div className="w-80 sm:ml-12 order-2 sm:order-none" initial={{ x: 200 }} whileInView={{ x: 0 }} viewport={{ once: true }} transition={{ type: 'spring', stiffness: 100, damping: 20 }}>
-              <Image src={FeatImage02} alt="check-in and check-out Demo" layout="responsive" />
+              <Image src={FeatImage02} alt="Rapid issue reporting Image" layout="responsive" />
             </motion.div>
           </div>
 
@@ -52,7 +52,7 @@ export default function Zigzag() {
           <div className="flex flex-col sm:flex-row items-center pb-14">
             
           <motion.div className="w-80 sm:mr-12 order-2 sm:order-none" initial={{ x: -200 }} whileInView={{ x: 0 }} viewport={{ once: true }} transition={{ type: 'spring', stiffness: 100, damping: 20 }}>
-              <Image src={FeatImage05} alt="check-in and check-out Demo" layout="responsive" />
+              <Image src={FeatImage05} alt="E-mail automation examples" layout="responsive" />
             </motion.div>
             <div className="w-full sm:w-3/5 pr-30 sm:pr-30 mb-6 sm:mb-0 order-1 sm:order-none">
               <div className="font-architects-daughter text-xl text-blue-600 mb-2">More speed. Less spend</div>
