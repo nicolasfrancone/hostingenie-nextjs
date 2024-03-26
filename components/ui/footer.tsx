@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="flex flex-col items-center">
           {/* Company section */}
           <div className="mb-4 md:mb-0">
-            <h5 className="text-gray-200 font-medium mb-1">Company</h5>
+            <h4 className="text-gray-200 font-medium mb-1">Company</h4>
           </div>
             
           {/* Policies section */}
