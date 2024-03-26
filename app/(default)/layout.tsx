@@ -5,7 +5,7 @@ import Footer from '@/components/ui/footer'
 
 export const metadata: Metadata = {
   title: 'Hostingenie: AI-Powered Hospitality Management Solution',
-  description: 'Where Artificial Intelligence meets hospitality excellence. Simplify property management, delight guests, and unlock passive income streams with an advanced AI chatbot and task automation system.'
+  description: 'Where Artificial Intelligence meets hospitality excellence. Simplify property management, delight guests, and unlock passive income streams with Hostingenie.'
 }
 
 export default function DefaultLayout({
