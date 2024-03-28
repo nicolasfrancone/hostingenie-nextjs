@@ -14,15 +14,6 @@ export default function DefaultLayout({
   children: React.ReactNode
 }) {  
 
-  useEffect(() => {
-    AOS.init({
-      once: true,
-      disable: 'phone',
-      duration: 600,
-      easing: 'ease-out-sine',
-    })
-  })
-
   return (
     <>
       <main className="grow">
