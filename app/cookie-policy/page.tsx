@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Cookie Policy | Understand Our Hostingeni's Cookie Policy",
+  title: "Cookie Policy | Understand Our Hostingenie's Cookie Policy",
   description: "Learn about Hostingenie's cookie policy to understand how we use cookies to enhance your chatting experience. Find out about the types of cookies we use and how you can manage your preferences.",
 }
 
