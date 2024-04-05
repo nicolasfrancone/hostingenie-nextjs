@@ -43,4 +43,21 @@
       width: 80% !important;;
     }
   }
+
+  .custom-background {
+    background: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%);
+  }
+
+  .custom-text {
+    font-weight: 600;
+    color: #447c96;
+  }
+
+  .star-icon {
+    color: #DAA520; /* Gold color */
+  }
   
+  .custom-gradient {
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(68,124,150,1) 88%, rgba(0,212,255,1) 100%);
+  }

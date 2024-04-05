@@ -15,7 +15,6 @@ export default function Header() {
 
       <Head>
         <link rel="icon" href="/favicon.ico" />
-        <link rel="canonical" href="https://www.hostingenie.com/" />
       </Head>
       <header className="absolute w-full z-30">
         <meta property="og:image" content={metadata.image} />
@@ -37,7 +36,7 @@ export default function Header() {
   `}
         </Script>
 
-        <div style={{ width: 0, height: 0 }} id="VG_OVERLAY_CONTAINER"></div>
+        <div className="w-0 h-0" id="VG_OVERLAY_CONTAINER"></div>
 
         <Banner />
         <div className="max-w-6xl mx-auto px-4 sm:px-6">

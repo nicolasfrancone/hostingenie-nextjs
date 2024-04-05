@@ -18,7 +18,7 @@ import Swipers from '@/components/swiper'
 export default function Home() {
   return (
     <>
-    
+    <link rel="canonical" href="https://www.hostingenie.com/" />
       <Hero />
       <Description />
       <Features />

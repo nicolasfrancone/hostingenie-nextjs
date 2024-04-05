@@ -7,6 +7,7 @@ export default function Privacy() {
     return (
         <>
             <section className='mt-20 md:mt-20'>
+            <link rel="canonical" href="https://www.hostingenie.com/privacy-policy" />
                 <div className="max-w-6xl mx-auto px-4 sm:px-6">
                     <div className="relative pt-32 pb-6 md:pt-40 md:pb-6">
                         <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">

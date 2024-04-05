@@ -2,7 +2,7 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
-import './swiper.css';
+import './styles.css';
 import 'swiper/css/pagination';
 import StarIcon from '@mui/icons-material/Star';
 import 'swiper/css/navigation';
@@ -39,12 +39,12 @@ export default function Swipers() {
       >
         {testimonialsData.map((testimonial, index) => (
           <SwiperSlide key={index}>
-            <div className="rounded-3xl p-5 bg-white relative" style={{ background: "linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%)" }}>
+            <div className="rounded-3xl p-5 bg-white relative custom-background">
               <div className='flex items-center'>
                 <img loading="lazy" src="/images/_93dedf3a-e6cb-4d89-9d8f-93ebcd67e33e-modified.png" alt="Testimonial" className="w-24 h-24 mr-4 rounded-full" />
                 <div>
                   <h3 className="text-xl font-bold weight-700 text-black">{testimonial.name}</h3>
-                  <span className="italic" style={{ fontWeight: 600, color: "#447c96" }}>{testimonial.position}</span>
+                  <span className="italic custom-text">{testimonial.position}</span>
                 </div>
               </div>
               <div className='mx-7'>
@@ -52,7 +52,7 @@ export default function Swipers() {
               </div>
               <div className="flex justify-center mt-4">
                 {[...Array(5)].map((_, index) => (
-                  <StarIcon key={index} style={{ color: "DAA520" }} />
+                  <StarIcon key={index} className="star-icon" />
                 ))}
               </div>
             </div>
