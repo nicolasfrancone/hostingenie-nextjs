@@ -14,7 +14,7 @@ export default function Terms() {
             </div>
 
             <div className="mx-auto text-left pb-12 md:pb-20">
-              <h3 className="h4 mb-4">Introduction</h3>
+              <h2 className="h4 mb-4">Introduction</h2>
               <p className="text-xl text-gray-400 pb-10">Welcome to Hostingenie's Terms of Service. These terms govern your use of Hostingenie's services, including AI conversational chatbots created using third-party platforms Voiceflow and Voiceglow. By accessing or using Hostingenie's services, you agree to abide by these terms.
               </p>
 

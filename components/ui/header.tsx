@@ -18,7 +18,6 @@ export default function Header() {
         <link rel="canonical" href="https://www.hostingenie.com/" />
       </Head>
       <header className="absolute w-full z-30">
-        <link rel="canonical" href="https://www.hostingenie.com/" />
         <meta property="og:image" content={metadata.image} />
         <meta property="og:url" content={metadata.url} />
         <meta property="og:type" content="website" />

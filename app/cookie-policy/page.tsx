@@ -14,7 +14,7 @@ export default function Cookie() {
             </div>
 
             <div className="mx-auto text-left pb-12 md:pb-20">
-              <h3 className="h4 mb-4">Introduction</h3>
+              <h2 className="h4 mb-4">Introduction</h2>
               <p className="text-xl text-gray-400 pb-10">Welcome to Hostingenie's Cookie Policy. This policy outlines how Hostingenie uses cookies and similar tracking technologies when you interact with our AI conversational chatbots created using third-party platforms Voiceflow and Voiceglow. By using Hostingenie's services, you consent to the use of cookies as described in this policy.</p>
 
 

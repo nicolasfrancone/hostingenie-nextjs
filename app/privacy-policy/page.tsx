@@ -14,7 +14,7 @@ export default function Privacy() {
                         </div>
 
                         <div className="mx-auto text-left pb-12 md:pb-20">
-                            <h4 className="h4 mb-4">Introduction</h4>
+                            <h2 className="h4 mb-4">Introduction</h2>
                             <p className="text-xl text-gray-400 pb-10">This Privacy Policy describes how Hostingenie <strong>("we", "us", or "our")</strong> collects, uses, and discloses your personal information when you interact with chatbots created by us and built on the Voiceflow and Voiceglow platforms (collectively, the "Chatbots").</p>
 
 
