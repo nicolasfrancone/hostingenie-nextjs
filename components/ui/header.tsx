@@ -5,8 +5,6 @@ import Head from 'next/head';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Hostingenie: AI-Powered Hospitality Management Solution',
-  description: 'Where Artificial Intelligence meets hospitality excellence. Simplify property management, delight guests, and unlock passive income streams with Hostingenie.',
   image: 'https://hostingenie.com/favicon.ico', // Replace with your image URL
   url: 'https://www.hostingenie.com', // Replace with your website URL
 };
