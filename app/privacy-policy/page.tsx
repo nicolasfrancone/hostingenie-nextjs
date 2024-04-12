@@ -1,13 +1,13 @@
 export const metadata = {
     title: "Privacy Policy | Safeguarding Your Information",
     description: "Explore our comprehensive privacy policy to understand how we protect and handle your personal information. Learn about your rights, data collection practices, and how we ensure your privacy is paramount.",
-  }
+}
 
 export default function Privacy() {
     return (
         <>
             <section className='mt-20 md:mt-20'>
-            <link rel="canonical" href="https://www.hostingenie.com/privacy-policy" />
+                <link rel="canonical" href="https://www.hostingenie.com/privacy-policy" />
                 <div className="max-w-6xl mx-auto px-4 sm:px-6">
                     <div className="relative pt-32 pb-6 md:pt-40 md:pb-6">
                         <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
@@ -56,7 +56,7 @@ export default function Privacy() {
                             <h3 className="h4 mb-8">User Responsabilities</h3>
 
                             <p className="text-xl text-gray-400 pb-10">Users are responsible for ensuring the accuracy and legality of the information they provide when interacting with our chatbots. This includes any personal data or file attachments shared during the interaction. Users should refrain from sharing sensitive or confidential information unless necessary and ensure compliance with applicable laws and regulations.</p>
-                            
+
                             <h3 className="h4 mb-8">Cookies</h3>
                             <p className="text-xl text-gray-400">We use two cookies:</p>
                             <ul className="list-disc pl-6 text-xl text-gray-400">
