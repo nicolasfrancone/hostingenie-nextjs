@@ -13,7 +13,7 @@ export default function Hero() {
     >
       {/* Logo */}
       <div className="flex items-center justify-center w-64 h-64 mx-auto pb-10">
-        <Image src={LogoImage} alt="Hostingenie Logo" layout='responsive' />
+        <Image src={LogoImage} alt="Hostingenie Logo" layout='responsive' title='Hostingenie Logo' />
       </div>
 
       {/* Section header */}
