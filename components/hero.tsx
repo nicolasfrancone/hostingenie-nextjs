@@ -1,6 +1,6 @@
 "use client";
 import { motion } from 'framer-motion';
-import LogoImage from '@/public/images/_93dedf3a-e6cb-4d89-9d8f-93ebcd67e33e-modified.png';
+import LogoImage from '@/public/images/_93dedf3a-e6cb-4d89-9d8f-93ebcd67e33e-modified.webp';
 import Image from 'next/image';
 
 export default function Hero() {
