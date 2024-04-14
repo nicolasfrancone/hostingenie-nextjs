@@ -1,4 +1,4 @@
-import ProfileImage from '@/public/images/IMG_0439-modified.png'
+import ProfileImage from '@/public/images/IMG_0439-modified.webp'
 import Image from 'next/image'
 
 

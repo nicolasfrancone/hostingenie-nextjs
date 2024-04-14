@@ -41,7 +41,7 @@ export default function Swipers() {
           <SwiperSlide key={index}>
             <div className="rounded-3xl p-5 bg-white relative custom-background">
               <div className='flex items-center'>
-                <img title="Testimonial Profile" loading="lazy" src="/images/_93dedf3a-e6cb-4d89-9d8f-93ebcd67e33e-modified.png" alt="Testimonial" className="w-24 h-24 mr-4 rounded-full" />
+                <img title="Testimonial Profile" loading="lazy" src="/images/_93dedf3a-e6cb-4d89-9d8f-93ebcd67e33e-modified.webp" alt="Testimonial" className="w-24 h-24 mr-4 rounded-full" />
                 <div>
                   <h3 className="text-xl font-bold weight-700 text-black">{testimonial.name}</h3>
                   <span className="italic custom-text">{testimonial.position}</span>
