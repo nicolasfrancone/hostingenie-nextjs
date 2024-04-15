@@ -1,10 +1,10 @@
 "use client"
 import {motion} from "framer-motion"
 import Image from 'next/image'
-import FeatImage01 from '@/public/images/IMG_3878-modified.png'
-import FeatImage02 from '@/public/images/IMG_3877-modified.png'
-import FeatImage04 from '@/public/images/handled-modified.png'
-import FeatImage05 from '@/public/images/IMG_3881-modified.png'
+import FeatImage01 from '@/public/images/IMG_3878-modified.webp'
+import FeatImage02 from '@/public/images/IMG_3877-modified.webp'
+import FeatImage04 from '@/public/images/handled-modified.webp'
+import FeatImage05 from '@/public/images/IMG_3881-modified.webp'
 
 export default function Zigzag() {
   return (
