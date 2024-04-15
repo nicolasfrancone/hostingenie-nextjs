@@ -33,9 +33,9 @@ export default function RootLayout({
           {children}
         </div>
         <Script
-          src="https://storage.googleapis.com/voiceglow-cdn/vg_live_build/vg_bundle.js"
+          src="https://storage.googleapis.com/voiceglow-cdn/vg_live_build/vg_bundle.js" defer
         />
-        <Script id="voiceglow">
+        <Script id="voiceglow" defer>
           {`
             (function() {
               window.VG_CONFIG = {
