@@ -32,7 +32,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.4 }}
         >
-          Where Artificial Intelligence and Hospitality come together to redefine the ideal stay: simplifying property management, creating unforgettable experiences.
+          Where Artificial Intelligence meets hospitality excellence. Simplify property management, delight guests, and unlock passive income streams with Hostingenie.
         </motion.p>
       </div>
     </motion.section>
