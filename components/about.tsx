@@ -1,5 +1,6 @@
 import ProfileImage from '@/public/images/IMG_0439-modified.webp'
 import Image from 'next/image'
+import Script from 'next/script'
 
 
 export default function About() {
@@ -63,7 +64,6 @@ export default function About() {
               <h3 className="h3 mb-4">Contact Us</h3>
               <p className="text-xl text-gray-400">Ready to experience the future of hospitality? Connect with us today to learn more about Hostingenie and how we can transform your lodging experience. If you have any questions, concerns, or inquiries, please don't hesitate to reach out to us by sending an e-mail <a title='Hostingenie e-mail' className="underline"href='mailto:support@hostingenie.com'><strong>here</strong></a>. <br></br>Our dedicated support team is here to assist you and ensure that your experience with Hostingenie is seamless and satisfactory. We look forward to hearing from you!</p>
             </div>
-  
           </div>
         </div>
         </div>

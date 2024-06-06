@@ -1,16 +1,24 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  plugins: [
+    require('flowbite/plugin')
+],
   content: [
     './app/**/*.{js,ts,jsx,tsx}',
     './pages/**/*.{js,ts,jsx,tsx}',
     './components/**/*.{js,ts,jsx,tsx}',
+    "./node_modules/flowbite/**/*.js"
+    
   ],
+  
   theme: {
     extend: {
       colors: {
         'custom-blue': '#ccfefb',
         'custom-dark': '#447c96',
         'feature-item': '#255C77',
+        'custom-dark1': "#325e72",
+        'custom-dark2': "#0E2F44",
         gray: {
           100: '#EBF1F5',
           200: '#D9E3EA',
