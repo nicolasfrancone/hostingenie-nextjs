@@ -46,7 +46,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
         >
-          AI-Powered Rental Management Solution.
+          AI-Powered Rental Management Solution
         </motion.h1>
         <motion.p
           className="text-xl text-gray-400 mb-4"
