@@ -59,7 +59,7 @@ export default function Hero() {
         <div className="pt-4 mb-8 lg:mb-16 sm:justify-center">
   <button 
     id='get-started-button'
-    className="inline-flex justify-center items-center py-4 px-20 text-lg font-bold text-white bg-custom-dark rounded-lg hover:bg-custom-dark1 focus:ring-4 focus:ring-custom-blue"
+    className="inline-flex justify-center items-center py-4 px-20 text-lg font-bold text-white bg-feature-item rounded-lg hover:bg-custom-dark2 focus:ring-4 focus:ring-custom-blue"
   >
     
     Get Started
