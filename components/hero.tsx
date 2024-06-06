@@ -34,14 +34,14 @@ export default function Hero() {
       transition={{ duration: 0.5 }}
     >
       {/* Logo */}
-      <div className="flex items-center justify-center w-64 h-64 mx-auto pb-10">
+      <div className="flex items-center justify-center w-56 h-56 sm:w-64 sm:h-64 mx-auto pb-10">
         <Image src={LogoImage} alt="Hostingenie Logo" layout='responsive' title='Hostingenie Logo' />
       </div>
 
       {/* Section header */}
       <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
         <motion.h1
-          className="h1 sm:h2 mb-4"
+          className="h2 sm:h1 mb-4"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
