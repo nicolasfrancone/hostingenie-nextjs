@@ -28,7 +28,7 @@ export default function Hero() {
 
   return (
     <motion.section
-      className='mt-16 md:mt-20 max-w-6xl mx-auto px-4 sm:px-6 relative pt-32 pb-6 md:pt-40 md:pb-6'
+      className='mt-14 md:mt-20 max-w-6xl mx-auto px-4 sm:px-6 relative pt-32 pb-6 md:pt-40 md:pb-6'
       initial={{ opacity: 0, y: -20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
@@ -49,7 +49,7 @@ export default function Hero() {
           AI-Powered Rental Management Solution
         </motion.h1>
         <motion.p
-          className="text-xl text-gray-400 mb-4"
+          className="text-lg sm:text-xl  text-gray-400 mb-4"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.4 }}
