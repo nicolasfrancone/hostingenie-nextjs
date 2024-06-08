@@ -28,18 +28,18 @@ export default function Hero() {
 
   return (
     <motion.section
-      className='mt-14 md:mt-20 max-w-6xl mx-auto px-4 sm:px-6 relative pt-32 pb-6 md:pt-40 md:pb-6'
+      className='mt-14 md:mt-10 max-w-6xl mx-auto px-4 sm:px-2 relative pt-32 pb-6 md:pt-40'
       initial={{ opacity: 0, y: -20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
     >
       {/* Logo */}
-      <div className="flex items-center justify-center w-56 h-56 sm:w-64 sm:h-64 mx-auto pb-10">
+      <div className="flex items-center justify-center w-56 h-56 sm:w-60 sm:h-60 mx-auto pb-10">
         <Image src={LogoImage} alt="Hostingenie Logo" layout='responsive' title='Hostingenie Logo' />
       </div>
 
       {/* Section header */}
-      <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
+      <div className="max-w-3xl mx-auto text-center pb-12 md:pb-10">
         <motion.h1
           className="h2 sm:h1 mb-4"
           initial={{ opacity: 0, y: 20 }}
@@ -56,10 +56,10 @@ export default function Hero() {
         >
           Where Artificial Intelligence meets hospitality excellence. Simplify property management, delight guests, and unlock passive income streams with Hostingenie.
         </motion.p>
-        <div className="pt-4 mb-8 lg:mb-16 sm:justify-center">
+        <div className="pt-4 mb-8 lg:mb-8 sm:justify-center">
   <button 
     id='get-started-button'
-    className="inline-flex justify-center items-center py-4 px-20 text-lg font-bold text-white bg-feature-item rounded-lg hover:bg-custom-dark2 focus:ring-4 focus:ring-custom-blue"
+    className="inline-flex justify-center items-center py-4 px-10 text-lg font-bold text-white bg-feature-item rounded-lg hover:bg-custom-dark2 focus:ring-4 focus:ring-custom-blue"
   >
     
     Get Started
