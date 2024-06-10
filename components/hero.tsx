@@ -46,7 +46,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
         >
-          AI-Powered Rental Management Solution
+          AI-Powered Property Rental Management Solution
         </motion.h1>
         <motion.p
           className="text-lg sm:text-xl  text-gray-400 mb-4"
@@ -54,7 +54,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.4 }}
         >
-          Where Artificial Intelligence meets hospitality excellence. Simplify property management, delight guests, and unlock passive income streams with Hostingenie.
+          Hostingenie helps property hosts achieve hands-free management while improving their guests' experience and satisfaction.
         </motion.p>
         <div className="pt-4 mb-8 lg:mb-8 sm:justify-center">
   <button 

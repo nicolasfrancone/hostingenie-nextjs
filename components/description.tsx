@@ -15,7 +15,7 @@ export default function Description() {
             viewport={{ once: true }}
           >
             <h2 className="h2 mb-4">Advanced conversational Artificial Intelligence chatbot and task Automation System.</h2>
-            <p className="text-xl text-gray-400">Hostingenie helps property hosts achieve hands-free management while improving their guests' experience and satisfaction.</p>
+            <p className="text-xl text-gray-400">Where Artificial Intelligence meets hospitality excellence. Simplify property management, delight guests, and unlock passive income streams with Hostingenie.</p>
           </motion.div>
 
         </div>
