@@ -17,64 +17,53 @@ export default function NavMobile() {
       {isOpen && (
         <div className="absolute top-full z-20 left-0 w-full px-4 sm:px-6 overflow-hidden transition-all duration-300 ease-in-out">
           <ul className="grid gap-2">
-            <li
-            >
+            <li>
               <a
                 onClick={() => setOpen((prev) => !prev)}
-                className={
-                  "font-bold text-xl font-medium flex items-center justify-between w-full p-5 rounded-xl bg-gray-800"
-                }
+                className="font-bold text-xl flex items-center justify-between w-full p-5 rounded-xl bg-gray-800"
                 href="/#features"
               >
-                Features
+                Funciones
               </a>
             </li>
-            <li
-            >
+
+            <li>
               <a
                 onClick={() => setOpen((prev) => !prev)}
-                className={
-                  "font-bold text-xl font-medium flex items-center justify-between w-full p-5 rounded-xl bg-gray-800"
-                }
+                className="font-bold text-xl flex items-center justify-between w-full p-5 rounded-xl bg-gray-800"
                 href="#demos"
               >
                 Demos
               </a>
             </li>
-            <li
-            >
+
+            <li>
               <a
                 onClick={() => setOpen((prev) => !prev)}
-                className={
-                  "font-bold text-xl font-medium flex items-center justify-between w-full p-5 rounded-xl bg-gray-800"
-                }
+                className="font-bold text-xl flex items-center justify-between w-full p-5 rounded-xl bg-gray-800"
                 href="/#benefits"
               >
-                Benefits
+                Beneficios
               </a>
             </li>
-            <li
-            >
+
+            <li>
               <a
                 onClick={() => setOpen((prev) => !prev)}
-                className={
-                  "font-bold text-xl font-medium flex items-center justify-between w-full p-5 rounded-xl bg-gray-800"
-                }
+                className="font-bold text-xl flex items-center justify-between w-full p-5 rounded-xl bg-gray-800"
                 href="/#testimonials"
               >
-                Testimonials
+                Testimonios
               </a>
             </li>
-            <li
-            >
+
+            <li>
               <a
                 onClick={() => setOpen((prev) => !prev)}
-                className={
-                  "font-bold text-xl font-medium flex items-center justify-between w-full p-5 rounded-xl bg-gray-800"
-                }
+                className="font-bold text-xl flex items-center justify-between w-full p-5 rounded-xl bg-gray-800"
                 href="/#about"
               >
-                About
+                Sobre Nosotros
               </a>
             </li>
           </ul>

@@ -1,7 +1,5 @@
 import ProfileImage from '@/public/images/IMG_0439-modified.webp'
 import Image from 'next/image'
-import Script from 'next/script'
-
 
 export default function About() {
     return (
@@ -11,63 +9,91 @@ export default function About() {
   
             {/* Section header */}
             <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-              <h2 className="h2 mb-4">About Us</h2>
-              <p className="text-xl text-gray-400">Hostingenie was founded in 2024 by Nicolas Francone, a computer engineering student from Buenos Aires, Argentina. Our mission at Hostingenie is to revolutionize the hospitality industry by providing seamless communication and an enhanced lodging experience for both guests and property owners.</p>
+              <h2 className="h2 mb-4">Sobre Nosotros</h2>
+              <p className="text-xl text-gray-400">
+                Hostingenie fue fundada en 2025 por Nicolás Francone, en el marco de un proyecto de innovación en Ingeniería Informática en Buenos Aires, Argentina. Nuestra misión es revolucionar la industria de la hospitalidad fusionando la gestión operativa con soluciones de Inteligencia Artificial para brindar una experiencia superior a huéspedes y propietarios.
+              </p>
             </div>
   
             <div className="mx-auto text-left">
-              <h3 className="h3 mb-4">Our Vision</h3>
-              <p className="text-xl text-gray-400 pb-10">As a passionate traveler and technology enthusiast, Nicolas Francone embarked on a journey around the world, experiencing diverse accommodation options. It was during these travels that he recognized the allure of staying in properties, offering a unique opportunity to immerse oneself in the local culture. However, he also recognized the challenges faced by property owners in efficiently managing vacation rentals.<br></br>Determined to make a difference, Nicolas sought to combine his love for travel with his expertise in technology to develop solutions that would support property owners in their endeavors, fostering a more seamless and enjoyable experience for both hosts and guests alike.</p>
+              <h3 className="h3 mb-4">Nuestra Visión</h3>
+              <p className="text-xl text-gray-400 pb-10">
+                Como anfitrión activo y entusiasta de la tecnología, Nicolás identificó una contradicción fundamental en el mercado: la búsqueda de rentabilidad sostenible frente a la realidad de una guardia operativa constante. Durante su experiencia gestionando propiedades, notó que la falta de herramientas adecuadas impedía escalar el negocio sin sacrificar calidad de vida.
+                <br /><br />
+                Decidido a generar un cambio, buscó combinar su formación en ingeniería con su experiencia en plataformas como Airbnb y Booking para desarrollar un ecosistema donde la tecnología elimine la fricción operativa y potencie la hospitalidad.
+              </p>
             
-              <h3 className="h3 mb-4">The Challenge</h3>
-              <p className="text-xl text-gray-400 pb-10">Renting properties for vacation purposes often entails significant responsibilities for hosts, who may lack the necessary property management skills. From handling check-ins and check-outs to addressing guest inquiries and ensuring property upkeep, hosts face numerous challenges. This often leads to delays in response times, elevated stress levels, and an inability to provide the desired level of guest satisfaction.<br></br>As a result, finding effective solutions to streamline these processes and enhance the overall hosting experience becomes paramount.</p>
-            
-  
-            
-              <h3 className="h3 mb-4">Our Solution</h3>
-              <p className="text-xl text-gray-400 pb-10">Hostingenie emerged as a solution to streamline communication between property owners and guests, utilizing artificial intelligence to alleviate the burden on hosts. By leveraging AI technology, Hostingenie empowers hosts to provide personalized attention to guests without the constant demand for customer support. This not only enables hosts to generate passive income with minimal time investment but also ensures guests receive exceptional service promptly.</p>
-            
-  
+              <h3 className="h3 mb-4">El Desafío</h3>
+              <p className="text-xl text-gray-400 pb-10">
+                La gestión de alquileres temporales conlleva una carga oculta significativa. Nuestros estudios revelan que para el 77% de los anfitriones, la comunicación constante es la principal fuente de agotamiento. Coordinar check-ins, responder consultas repetitivas y gestionar incidencias manualmente se vuelve insostenible al escalar.
+                <br /><br />
+                Esta sobrecarga deriva en demoras en las respuestas y estrés operativo. Resulta fundamental implementar soluciones que no solo asistan, sino que automaticen estos procesos para garantizar estándares de calidad consistentes.
+              </p>
+              
+              <h3 className="h3 mb-4">Nuestra Solución</h3>
+              <p className="text-xl text-gray-400 pb-10">
+                Hostingenie propone una solución integral basada en Inteligencia Artificial Conversacional y Automatización de Procesos. Implementamos un "Agente Inteligente" capaz de filtrar y resolver más del 80% de las consultas rutinarias de forma autónoma.
+                <br /><br />
+                Gracias a esta tecnología, los anfitriones pueden minimizar su carga operativa y dependencia manual, mientras que los huéspedes reciben respuestas inmediatas las 24 horas, garantizando una atención de primer nivel sin intervención humana constante.
+              </p>
           
-              <h3 className="h3 mb-4">How We Benefit Everyone</h3>
-              <p className="text-xl text-gray-400 pb-10">With Hostingenie, everyone wins. Property owners gain access to a tailored Genie capable of managing all guest inquiries, while guests enjoy a personalized and seamless experience. By bridging the gap between hosts and guests, Hostingenie enhances the overall lodging experience and fosters mutual satisfaction.</p>
+              <h3 className="h3 mb-4">Cómo Beneficiamos a Todos</h3>
+              <p className="text-xl text-gray-400 pb-10">
+                Con Hostingenie, la ecuación es simple. Los propietarios logran escalabilidad y recuperan el control de su tiempo mediante la automatización de tareas críticas. Los huéspedes, por su parte, disfrutan de autonomía y asistencia instantánea personalizada.
+                <br /><br />
+                Al optimizar la eficiencia y la comunicación, Hostingenie eleva la reputación de las propiedades y fomenta una satisfacción mutua duradera.
+              </p>
              
             {/* Meet Our Team */}
             <div className="mx-auto text-left pb-8 flex flex-wrap items-center">
-              <h3 className="h3 mb-4">Meet Our Team</h3>
-              <p className="text-xl text-gray-400">Behind Hostingenie is a dedicated team of professionals committed to revolutionizing the hospitality industry. Our diverse backgrounds and expertise converge to drive innovation and deliver exceptional service to our clients.</p>
-              </div>
+              <h3 className="h3 mb-4">Nuestro Equipo</h3>
+              <p className="text-xl text-gray-400 w-full">
+                Detrás de Hostingenie hay una arquitectura técnica robusta y una visión clara de ingeniería aplicada al negocio.
+              </p>
+            </div>
 
-              <div className="mx-auto text-left flex flex-wrap pb-8 sm:pb-10 items-center">
+            <div className="mx-auto text-left flex flex-wrap pb-8 sm:pb-10 items-center">
               <div className="w-full md:w-1/2 md:pr-8">
-              <p className="text-xl mb-2 font-bold">Nicolas Francone - Founder & CEO</p>
-              <p className="text-xl text-gray-400 mb-4">Nicolas Francone's passion for travel and technology inspired the creation of Hostingenie. With a vision to simplify the vacation rental experience, Nicolas leads the team with enthusiasm and dedication.</p>
-              <p className="text-xl  font-bold">Support Team</p>
-              <p className="text-xl text-gray-400">Our support team works tirelessly to ensure seamless communication between hosts and guests. With a focus on efficiency and excellence, they strive to exceed expectations and deliver unparalleled service.</p>
+                <p className="text-xl mb-2 font-bold">Nicolas Francone – Fundador</p>
+                <p className="text-xl text-gray-400 mb-4">
+                  Estudiante de Ingeniería en Informática y emprendedor. Nicolás fusionó su experiencia técnica en desarrollo con su trayectoria real en la administración de propiedades para diseñar la arquitectura de Hostingenie.
+                </p>
+  <p className="text-xl font-bold">Equipo de Soporte</p>
+                <p className="text-xl text-gray-400">
+                 Nuestro equipo de soporte trabaja constantemente para garantizar una comunicación fluida entre anfitriones y huéspedes. Con un enfoque en la eficiencia y la excelencia, buscan superar expectativas y ofrecer un servicio de primer nivel.</p>
               </div>
               <div className="w-full md:w-1/2 md:pl-8 pt-7 pb-4 sm:pb-6">
-              <div className="rounded-full overflow-hidden w-64 h-64 mx-auto md:mx-0">
-                <Image src={ProfileImage} alt="Nicolas' Profile Picture" layout="responsive" width={300} height={300} title='Nicolas Profile'/>
+                <div className="rounded-full overflow-hidden w-64 h-64 mx-auto md:mx-0 border-4 border-gray-800">
+                  <Image
+                    src={ProfileImage}
+                    alt="Foto de perfil de Nicolas"
+                    layout="responsive"
+                    width={300}
+                    height={300}
+                    title="Perfil de Nicolas"
+                    className="object-cover"
+                  />
+                </div>
               </div>
             </div>
-          
           </div>
 
-            <div className="text-left pb-12 md:pb-20">
-
-            <h3 className="h3 mb-4">Current Phase</h3>
-            <p className="text-xl text-gray-400 pb-10">Please note that Hostingenie is currently in a test phase, where we are refining our services to ensure optimal performance and user experience. We appreciate your patience and feedback during this phase as we work towards our official launch.</p>
+          <div className="text-left pb-12 md:pb-20">
+            <h3 className="h3 mb-4">Fase Actual</h3>
+            <p className="text-xl text-gray-400 pb-10">
+              Actualmente, Hostingenie se encuentra en una fase final pre lanzamiento, en la cual estamos perfeccionando nuestros servicios para garantizar un rendimiento óptimo y una excelente experiencia de uso. Agradecemos tu paciencia y feedback mientras avanzamos hacia nuestro lanzamiento oficial.</p>
               
-            <h3 className="h3 mb-4">Special Offer for Early Adopters</h3>
-            <p className="text-xl text-gray-400 pb-10">Our first customers who would like to work with us during this phase will have access to Hostingenie for <strong>FREE</strong> for the initial months as a token of appreciation for trusting us. This special offer is our way of expressing gratitude to those who join us early on in our journey. We value your partnership and look forward to working closely with you to shape the future of Hostingenie.</p>
-              
-              <h3 className="h3 mb-4">Contact Us</h3>
-              <p className="text-xl text-gray-400">Ready to experience the future of hospitality? Connect with us today to learn more about Hostingenie and how we can transform your lodging experience. If you have any questions, concerns, or inquiries, please don't hesitate to reach out to us by sending an e-mail <a title='Hostingenie e-mail' className="underline"href='mailto:support@hostingenie.com'><strong>here</strong></a>. <br></br>Our dedicated support team is here to assist you and ensure that your experience with Hostingenie is seamless and satisfactory. We look forward to hearing from you!</p>
-            </div>
+            <h3 className="h3 mb-4">Contacto</h3>
+            <p className="text-xl text-gray-400">
+              ¿Listo para experimentar el futuro de la gestión de alquileres? Contactanos hoy mismo para conocer cómo la automatización puede transformar tu negocio.
+              <br /><br />
+              Si tenés consultas técnicas o comerciales, no dudes en escribirnos por e-mail haciendo clic <a title='E-mail de Hostingenie' className="underline hover:text-blue-400 transition-colors" href='mailto:support@hostingenie.com'><strong>aquí</strong></a>.
+              <br /><br />
+              Estamos listos para ayudarte a profesionalizar tu gestión. ¡Esperamos tu mensaje!
+            </p>
           </div>
-        </div>
+          </div>
         </div>
       </section>
     )
-  }
-  
+}

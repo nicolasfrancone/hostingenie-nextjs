@@ -3,17 +3,16 @@ import { motion } from "framer-motion";
 
 export default function Benefits() {
     const benefits = [
-        "Instant elimination of 85% of your guests' inquiries.",
-        "Minimized time required for your properties.",
-        "Optimized check-in and check-out procedures.",
-        "Reduction of administrative workload.",
-        "Guest-centric solution.",
-        "Increase in positive reviews and reputation.",
-        "Intuitive and interactive experience.",
-        "Potential for increased rental prices.",
-        "Decrease in staff dedicated to Guest Services.",
-        "Whatsapp integration.",
-        "And much more..."
+        "Resolución automática de más del 80% de las consultas", // Coherente con tu defensa
+        "Disponibilidad 24/7 sin intervención humana",
+        "Optimización inteligente de Check-in y Check-out",
+        "Reducción drástica de la carga administrativa",
+        "Experiencia centrada en la autonomía del huésped",
+        "Mejora orgánica en reputación y reseñas",
+        "Interacción fluida, intuitiva y multilingüe",
+        "Reducción de costos operativos",
+        "Gestión centralizada de incidencias",
+        "Escalabilidad para gestionar múltiples propiedades" // Reemplaza al "Y mucho más"
     ];
 
     return (
@@ -22,7 +21,7 @@ export default function Benefits() {
                 <div className="py-12 md:py-20 border-t border-gray-800">
                     
                     <div className="max-w-3xl mx-auto text-center pb-10">
-                        <h2 className="h2 mb-4">Benefits</h2>
+                        <h2 className="h2 mb-4">Beneficios</h2>
                     </div>
                     <motion.div 
                         transition={{ duration: 1.5, ease: "easeInOut" }} 

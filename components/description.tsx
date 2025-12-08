@@ -1,5 +1,5 @@
 "use client"
-import { animate, motion } from 'framer-motion';
+import { motion } from 'framer-motion';
 
 export default function Description() {
   return (
@@ -14,8 +14,12 @@ export default function Description() {
             transition={{ duration: 0.9, ease: "circOut" }}
             viewport={{ once: true }}
           >
-            <h2 className="h2 mb-4">Advanced conversational Artificial Intelligence chatbot and task Automation System.</h2>
-            <p className="text-xl text-gray-400">Where Artificial Intelligence meets hospitality excellence. Simplify property management, delight guests, and unlock passive income streams with Hostingenie.</p>
+            <h2 className="h2 mb-4">
+              Chatbot avanzado de inteligencia artificial conversacional y sistema de automatización de tareas.
+            </h2>
+            <p className="text-xl text-gray-400">
+              Donde la inteligencia artificial se une a la excelencia en hospitalidad. Simplificá la gestión de propiedades, deleitá a tus huéspedes y escalá tu negocio con Hostingenie.
+            </p>
           </motion.div>
 
         </div>

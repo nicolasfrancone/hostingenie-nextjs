@@ -5,7 +5,7 @@ export default function Banner() {
     return (
         <div className="text-white text-center py-2 mx custom-gradient">
             <p className="text-base font-bold mx-3">
-            ⚡BREAKING NEWS! Our first customers will have <strong>FREE ACCESS</strong> to Hostingenie for their first month!
+            ⚡¡ÚLTIMA HORA! ¡Nuestros primeros clientes tendrán <strong>ACCESO GRATIS</strong> a Hostingenie durante su primer mes!
             </p>
         </div>
     );
